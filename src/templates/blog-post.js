@@ -7,6 +7,11 @@ import "./blog-post.css"
 import Sidebar from "../components/sidebar/Sidebar"
 import TechTag from "../components/tags/TechTag"
 import CustomShareBlock from "../components/CustomShareBlock"
+import { DiscussionEmbed } from "disqus-react"
+const disqusConfig = {
+  shortname: process.env.GATSBY_DISQUS_NAME,
+  config: { identifier: "" },
+}
 
 const BlogPost = (props) => {
   const post = props.data.markdownRemark
@@ -29,6 +34,7 @@ const BlogPost = (props) => {
   }
 
   return (
+  
     <Layout>
       <SEO title={post.frontmatter.title} />
       <div className="post-page-main">
@@ -50,6 +56,7 @@ const BlogPost = (props) => {
           </div>
         </div>
       </div>
+      <DiscussionEmbed {...disqusConfig} />
     </Layout>
   )
 }
