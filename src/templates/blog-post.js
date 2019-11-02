@@ -9,7 +9,7 @@ import TechTag from "../components/tags/TechTag"
 import CustomShareBlock from "../components/CustomShareBlock"
 import { DiscussionEmbed } from "disqus-react"
 const disqusConfig = {
-  shortname: process.env.GATSBY_DISQUS_NAME,
+  shortname: "dj-dixon",
   config: { identifier: "" },
 }
 
