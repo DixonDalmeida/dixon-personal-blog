@@ -27,9 +27,9 @@ Terraform allows you to configure multiple environments using workspaces. Create
 
 Tag all the resources  which you can. Tagging help search the resources easily. 
 Also mainly tagging can be used for identify resources during billing.
-[AWS Tagging Strategy](https://aws.amazon.com/answers/account-management/aws-tagging-strategies/)
-[Azure Tagging](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-using-tags)
-[GCP Tagging](https://acloud.guru/forums/gcp-certified-associate-cloud-engineer/discussion/-L_6TTKxulQgu7XzeqmC/Tags%20vs%20Labels%20vs%20Meta-Data)
+- [AWS Tagging Strategy](https://aws.amazon.com/answers/account-management/aws-tagging-strategies/)
+- [Azure Tagging](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-using-tags)
+- [GCP Tagging](https://acloud.guru/forums/gcp-certified-associate-cloud-engineer/discussion/-L_6TTKxulQgu7XzeqmC/Tags%20vs%20Labels%20vs%20Meta-Data)
 
 <b>Use [TFVARS file](https://www.terraform.io/docs/configuration/variables.html#variable-definitions-tfvars-files)</b>
 
