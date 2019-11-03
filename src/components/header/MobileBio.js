@@ -6,8 +6,11 @@ import dj from "../../images/dj.jpg"
 const MobileBio = (props) => {
 
     return (
-      
-        <div class="d-flex p-2 bd-highlight">I'm a flexbox container!</div>
+        <div className="mobile-bio-main">
+            <img src={dj}  className="ml-2 mt-2" style={{ maxWidth: `75px`, maxHeight: `75px`, borderRadius: `50%`,boxShadow: `1px 1px 3px`}} alt="author-pic" />
+            <br/>
+            <h4 className="mr-1 mt-1">{props.author}</h4>
+        </div>
     )
 }
 
