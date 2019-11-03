@@ -1,6 +1,6 @@
 ---
 title: 'Bangalore Traffic Solved using Kubernetes [ Hypothetical Solution]'
-tags: ["nodejs", "react"]
+tags: ["kubernetes", "devops"]
 images: "../images/dj.jpg"
 published: true
 date: '2019-06-01'
