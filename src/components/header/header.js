@@ -38,8 +38,8 @@ const Header = ({ siteTitle, tagline, author, contacts }) => {
         <SocialLinks contacts={contacts} />
       </div>
       <MobileSocialLinks contacts={contacts} />
-      <MobilePageLinks />
       <MobileBio author={author} />
+      <MobilePageLinks />
     </header>
   )
 }

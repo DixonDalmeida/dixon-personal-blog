@@ -3,7 +3,7 @@
 module.exports = {
   url: "https://developer-diary.netlify.com",
   title: "DJ's Developer Diary",
-  tagline: " Lead DevOps Engineer and Kubernetes Specialist",
+  tagline: "Lead DevOps Engineer and Kubernetes Specialist",
   copyright: "© 2019 dj, All rights reserved",
   author: {
     name: "Dixon Joseph Dalmeida",
