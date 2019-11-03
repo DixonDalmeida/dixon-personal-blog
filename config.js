@@ -26,6 +26,20 @@ module.exports = {
       color: "deepskyblue",
     },
     {
+      tag: "vlog",
+      tech: "Vlog",
+      name: "DiReact",
+      size: 20,
+      color: "FaVideo",
+    },
+    {
+      tag: "motivation",
+      tech: "Motivation",
+      name: "DiReact",
+      size: 20,
+      color: "deepskyblue",
+    },
+    {
       tag: "kubernetes",
       tech: "Kubernetes",
       name: "DiCssTricks",
