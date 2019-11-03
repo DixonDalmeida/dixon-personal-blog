@@ -33,6 +33,13 @@ module.exports = {
       color: "FaVideo",
     },
     {
+      tag: "terraform",
+      tech: "Terraform",
+      name: "DiTravis",
+      size: 20,
+      color: "deepskyblue",
+    },
+    {
       tag: "motivation",
       tech: "Motivation",
       name: "DiReact",
