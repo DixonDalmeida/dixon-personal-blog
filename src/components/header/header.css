@@ -17,8 +17,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  flex-direction: row;
-  justify-content: space-around;
 }
 
 
@@ -32,7 +30,9 @@
 .mobile-pages-main {
   width: 100%;
   background: white;
-  display: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .head-logo {
   font-family: "Raleway";
