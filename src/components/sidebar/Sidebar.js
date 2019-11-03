@@ -51,10 +51,11 @@ const Sidebar = () => {
             render={data => (
                 <>
                     <div className="sidebar-main border-right">
-                        <Bio author={data.site.siteMetadata.author} tagline={data.site.siteMetadata.tagline} />
-                        <SocialLinks contacts={data.site.siteMetadata.contacts} />
-                        <div className="page-links">
+                        <Bio author={data.site.siteMetadata.author} tagline={data.site.siteMetadata.tagline} /> 
+                        <br></br>                      
+                         <div className>
                             <Link to="/"><span className="text-dark d-block py-1">Blog Home</span></Link>
+                            <Link to="/vlog"><span className="text-dark d-block py-1">Vlog Home</span></Link>
                             <Link to="/about"><span className="text-dark d-block py-1">About</span></Link>
                             <Link to="/archive"><span className="text-dark d-block py-1">Archive</span></Link>
                         </div>
