@@ -69,6 +69,7 @@ const AboutPage = (props) => {
                                 <TechTag tag="kubernetes" tech="Kubernetes" name="DiCssTricks" size={20} color="deepskyblue" />
                                 <TechTag tag="git" tech="Git" name="DiGitMerge" size={20} color="white" />
                                 <TechTag tag="docker" tech="Docker" name="FaDocker" size={20} color="deepskyblue" />
+                                <TechTag tag="terraform" tech="Terraform" name="DiTravis" size={20} color="deepskyblue" />
                                 <TechTag tag="jenkins" tech="Jenkins" name="FaJenkins" size={20} color="red" />
                                 <TechTag tag="python" tech="Python" name="DiPython" size={20} color="deepskyblue" />
                                 <TechTag tag="spinnaker" tech="Spinnaker" name="DiRuby" size={20} color="deepskyblue" />
