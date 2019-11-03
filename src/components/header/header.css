@@ -1,12 +1,14 @@
 .head-main {
   width: 100%;
+  position: flex;
   z-index: 1;
   top: 0;
+  display: flex;
   flex-direction: column;
 }
 
 .head-elements {
-  display: sticky;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -28,12 +30,11 @@
 .mobile-pages-main {
   width: 100%;
   background: white;
-  display: flex;
+  display: none;
 }
 .head-logo {
   font-family: "Raleway";
   font-size: 1.75rem;
-  display: sticky;
 }
 
 small {
@@ -42,9 +43,7 @@ small {
 
 .mobile-bio-main {
   background: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  display: none;
 }
 
 
