@@ -1,7 +1,7 @@
 ---
 title: 'Bangalore Traffic Solved using Kubernetes [ Hypothetical Solution]'
 tags: ["kubernetes", "devops"]
-images: "../images/dj.jpg"
+featuredImage: ../../../src/images/k8.jpeg
 published: true
 date: '2019-06-01'
 ---
@@ -46,6 +46,7 @@ We need to build the tunnels under the Bangalore high crowded places. The tunnel
 Pods can split and merge at a certain point in the route like our trains do. But in our case, it is done autonomously. Hence there will not wait time. Below figure shows one of the scenarios where pod A and B travel together from point A to C. They will split point C and take two paths. Then merge at point G.
 <br>
 
+![alt-text for image](../../../src/images/k8-bangalore-traffic.png)
 
 This solution is not limited to the tunnels. We can use the same solution on the roads too. We can also integrate the solution for roads and tunnels. As the pods can travel both on roads and tunnel.
 <br>

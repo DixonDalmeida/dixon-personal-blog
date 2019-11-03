@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./blog-post.css"
+import Img from "gatsby-image"
 
 import Sidebar from "../components/sidebar/Sidebar"
 import TechTag from "../components/tags/TechTag"
@@ -32,6 +33,7 @@ const BlogPost = (props) => {
     })
     return techTags
   }
+  const featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
 
   return (
   
@@ -46,6 +48,7 @@ const BlogPost = (props) => {
           <SEO title={post.frontmatter.title} />
           <div className="mt-3">
             <h2 className="heading">{post.frontmatter.title}</h2>
+            <Img fluid={featuredImgFluid} />
             <div className="d-block">
               {getTechTags(tags)}
             </div>
@@ -82,6 +85,13 @@ export const query = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         tags
+        featuredImage {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

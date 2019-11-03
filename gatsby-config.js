@@ -48,6 +48,12 @@ module.exports = {
               noInlineHighlight: false,
             }
           }, `gatsby-remark-responsive-iframe`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+            },
+          },
         ],
       },
     },
