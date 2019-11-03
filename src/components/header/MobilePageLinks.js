@@ -11,7 +11,7 @@ const MobilePages = () => {
                 <br/>
                 <li className="d-inline p-4"><Link to="/"><span class="btn btn-info" >Blog</span></Link></li>
                 <li className="d-inline p-4"><Link to="/vlog"><span class="btn btn-info">Vlog</span></Link></li>
-                <li className="d-inline p-4"><Link to="/about"><span class="btn btn-info"className="text-dark">About</span></Link></li>
+                <li className="d-inline p-4"><Link to="/about"><span class="btn btn-info">About</span></Link></li>
         </div>
     )
 }
