@@ -10,11 +10,11 @@ module.exports = {
     bio: "Senior DevOps Engineer",
     contacts: {
       linkedin: "https://www.linkedin.com/in/dj-dixon-joseph-d-almeida-4443a7a3",
-      github: "https://github.com/willjw3",
+      github: "https://github.com/starlord-dixon",
       stackoverflow:
-        "https://stackoverflow.com/users/10262432/will-ward?tab=profile",
-      freecodecamp: "https://linktr.ee/Dj_DixonJoseph",
-      twitter: "https://twitter.com/willjw3",
+        "https://stackoverflow.com/users/7256390/dixon-almeida?tab=profile",
+      linktree: "https://linktr.ee/Dj_DixonJoseph",
+      twitter: "https://twitter.com/DixonAlmeida",
     },
   },
   labels: [
