@@ -6,10 +6,8 @@ import dj from "../../images/dj.jpg"
 const MobileBio = (props) => {
 
     return (
-        <div className="heading">
-            <br/>
-            <h4 className="heading">{props.author}</h4>
-        </div>
+      
+        <div class="d-flex p-2 bd-highlight">I'm a flexbox container!</div>
     )
 }
 
