@@ -6,9 +6,9 @@ import dj from "../../images/dj.jpg"
 const MobileBio = (props) => {
 
     return (
-        <div className="mobile-bio-main">
+        <div className="heading">
             <br/>
-            <h4 className="mr-1 mt-1">{props.author}</h4>
+            <h4 className="heading">{props.author}</h4>
         </div>
     )
 }
