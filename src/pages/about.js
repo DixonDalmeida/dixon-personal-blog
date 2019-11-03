@@ -10,22 +10,22 @@ import TechTag from "../components/tags/TechTag"
 const AboutPage = (props) => {
     return (
         <Layout>
-            <SEO title="About" />
+            <SEO title="About" keywords={[`kubernetes`, `helm`, `jenkins`, `aws`, `azure`, `spinnaker`, `blog`]} />
             <div className="post-page-main">
                 <div className="sidebar px-4 py-2">
                     <Sidebar />
                 </div>
 
                 <div className="post-main">
-                    <SEO title="About" />
+                    <SEO title="About" keywords={[`kubernetes`, `helm`, `jenkins`, `aws`, `azure`, `spinnaker`, `blog`]} />
                     <div className="mt-3">
                         <h2 className="heading">About</h2>
-                        <p><i><b>Dixon Joseph Dalmeida is Lead DevOps Engineer.</b>
-                            <br></br>
+                        <p><i><b>Dixon Joseph Dalmeida is Lead DevOps Engineer and Kubernetes Specialist</b>
+                        </i></p>
                             <span className="text-success d-inline-block" title="blazing">
                                 <FaCheckCircle size={26} style={{ color: "success" }} />
                             </span>
-                            <p className="d-inline-block ml-3 w-75 align-top">Dixon has production level experience in Kubernetes ( AKS, IKS, EKS).</p>
+                            <p className="d-inline-block ml-3 w-75 align-top">Dixon has production level experience in <b>Managed Kubernetes ( AKS, IKS, EKS).</b></p>
                             <br></br>
                             <span className="text-success d-inline-block" title="blazing">
                                 <FaCheckCircle size={26} style={{ color: "success" }} />
@@ -62,45 +62,23 @@ const AboutPage = (props) => {
                             </span>
                             <p className="d-inline-block ml-3 w-75 align-top">Experience in collaborating the Developer, Ops and Test team.</p>
                             <br></br>
-</i></p>
                         <br />
-                        <h4>Features</h4>
-                        <div>
-                            <span className="text-success d-inline-block" title="blazing">
-                                <FaCheckCircle size={26} style={{ color: "success" }} />
-                            </span>
-                            <p className="d-inline-block ml-3 w-75 align-top">Blazing fast, as you'd expect from a Gatsby site</p>
-                        </div>
-                        <div>
-                            <span className="text-success d-inline-block" title="tags">
-                                <FaCheckCircle size={26} style={{ color: "success" }} />
-                            </span>
-                            <p className="d-inline-block ml-3 w-75 align-top">Tech tags designed for web developers</p>
-                            <div className="ml-5">
-                                <TechTag tag="react" tech="React" name="DiReact" size={20} color="deepskyblue" />
-                                <TechTag tag="nodejs" tech="Node.js" name="DiNodejsSmall" size={20} color="lightgreen" />
-                                <TechTag tag="html" tech="HTML" name="FaHtml5" size={20} color="darkorange" />
-                                <TechTag tag="css" tech="CSS" name="DiCss3Full" size={20} color="teal" />
-                            </div>  
-                        </div>
-                        <div className="mt-4">
-                            <span className="text-success d-inline-block" title="prism">
-                                <FaCheckCircle size={26} style={{ color: "success" }} />
-                            </span>
-                            <p className="d-inline-block ml-3 w-75 align-top">Includes Prism for code block styling in markdown files</p>
-                        </div>
-                        <div>
-                            <span className="text-success d-inline-block" title="icons">
-                                <FaCheckCircle size={26} style={{ color: "success" }} />
-                            </span>
-                            <p className="d-inline-block ml-3 w-75 align-top">Developer-relevant social-media icon links including GitHub, Stack Overflow and freeCodeCamp</p>
-                        </div>
-                        <div>
-                            <span className="text-success d-inline-block" title="mobile">
-                                <FaCheckCircle size={26} style={{ color: "success" }} />
-                            </span>
-                            <p className="d-inline-block ml-3 w-75 align-top">Mobile responsive, of course</p>
-                        </div>
+                        <h4>Technologies</h4>
+                        <div className="ml-5">
+                                <TechTag tag="devops" tech="DevOps" name="DiReact" size={20} color="deepskyblue" />
+                                <TechTag tag="kubernetes" tech="Kubernetes" name="DiCssTricks" size={20} color="deepskyblue" />
+                                <TechTag tag="git" tech="Git" name="DiGitMerge" size={20} color="white" />
+                                <TechTag tag="docker" tech="Docker" name="FaDocker" size={20} color="deepskyblue" />
+                                <TechTag tag="jenkins" tech="Jenkins" name="FaJenkins" size={20} color="red" />
+                                <TechTag tag="python" tech="Python" name="DiPython" size={20} color="deepskyblue" />
+                                <TechTag tag="spinnaker" tech="Spinnaker" name="DiRuby" size={20} color="deepskyblue" />
+                                <TechTag tag="aws" tech="AWS" name="FaAmazon" size={20} color="wheat" />
+                                <TechTag tag="azure" tech="Azure" name="FaMicrosoft" size={20} color="red" />
+                                <TechTag tag="monitoring" tech="Monitoring" name="FaHtml5" size={20} color="darkorange" />
+                                <TechTag tag="golang" tech="Golang" name="FaGithubAlt" size={20} color="skyblue" />
+                                <TechTag tag="linux" tech="Linux" name="FaLinux" size={20} color="green" />
+                                <TechTag tag="helm" tech="Helm" name="DiCssTricks" size={20} color="deepskyblue" />
+                        </div> 
                     </div>
                 </div>
             </div>
