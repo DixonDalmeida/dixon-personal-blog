@@ -18,6 +18,10 @@ const Header = ({ siteTitle, tagline, author, contacts }) => {
         background: `black`
       }}
     >
+      <head>
+<title>Dixon Dalmeida - Kubernetes, Devops, Kubernetes, Docker</title>
+</head>
+<meta name="description" content=" " />
       <div className="head-elements"
         style={{
           margin: `0`,
