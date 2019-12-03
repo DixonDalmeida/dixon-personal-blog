@@ -9,8 +9,8 @@ module.exports = {
     name: "Dixon Joseph Dalmeida",
     bio: "Senior DevOps Engineer",
     contacts: {
-      linkedin: "https://www.linkedin.com/in/dj-dixon-joseph-d-almeida-4443a7a3",
-      github: "https://github.com/starlord-dixon",
+      linkedin: "https://www.linkedin.com/in/dixonalmeida",
+      github: "https://github.com/dixonalmeida",
       stackoverflow:
         "https://stackoverflow.com/users/7256390/dixon-almeida?tab=profile",
       linktree: "https://linktr.ee/Dj_DixonJoseph",
