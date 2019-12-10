@@ -81,9 +81,9 @@ const AboutPage = (props) => {
                                 <TechTag tag="helm" tech="Helm" name="DiCssTricks" size={20} color="deepskyblue" />
                         </div> 
                     </div>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2768ca10-bddf-46ce-ad3a-e614e5eac651"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
-                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="f3c6cf54-fa6c-45d5-ab99-c5d0c62843bf"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
-                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="e85351c6-4b95-4b14-b6af-d51907096a97"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2768ca10-bddf-46ce-ad3a-e614e5eac651"></div><script type="text/javascript"  src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="f3c6cf54-fa6c-45d5-ab99-c5d0c62843bf"></div><script type="text/javascript"  src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="e85351c6-4b95-4b14-b6af-d51907096a97"></div><script type="text/javascript"  src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
                 </div>
             </div>
         </Layout>
