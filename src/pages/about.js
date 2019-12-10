@@ -80,6 +80,7 @@ const AboutPage = (props) => {
                                 <TechTag tag="linux" tech="Linux" name="FaLinux" size={20} color="green" />
                                 <TechTag tag="helm" tech="Helm" name="DiCssTricks" size={20} color="deepskyblue" />
                         </div> 
+                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2768ca10-bddf-46ce-ad3a-e614e5eac651"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
                     </div>
                 </div>
             </div>
