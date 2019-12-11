@@ -6,9 +6,13 @@ published: true
 date: '2019-12-02'
 ---
 <br>
+<head>
+<title>Dixon Dalmeida - Weight, Fitness, Weight, Loss</title>
+<meta name="description" content="10 tips to lose weight even faster" />
+</head>
 
 
-<b>Here are 10 more tips to lose weight even faster:</b>
+<b>Here are 10  tips to lose weight even faster:</b>
 
 - Eat a high-protein breakfast. Eating a high-protein breakfast has been shown to reduce cravings and calorie intake throughout the day.
 - Avoid sugary drinks and fruit juice. These are the most fattening things you can put into your body, and avoiding them can help you lose weight.
