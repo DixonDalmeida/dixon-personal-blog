@@ -7,6 +7,10 @@ date: '2019-11-03'
 ---
 <br>
 
+<head>
+<title>Dixon Dalmeida - Terraform, Best Practises</title>
+<meta name="description" content="Terraform Best Practises" />
+</head>
 
 <b>[Terraform Backend](https://www.terraform.io/docs/backends/config.html) for storing Tfstate file</b>
 
